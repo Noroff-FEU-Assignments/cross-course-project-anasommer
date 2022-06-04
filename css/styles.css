@@ -162,6 +162,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .link:hover {
@@ -189,6 +190,7 @@ p {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .gallery-item img {
@@ -211,4 +213,29 @@ p {
   position: absolute;
   left: 38%;
   bottom: 3rem;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 1.5px solid #272727;
+  padding-top: 1.5rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer-icons img {
+  width: 70%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
