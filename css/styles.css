@@ -397,3 +397,18 @@ footer {
     object-fit: cover;
   }
 }
+
+@media (max-width: 500px) {
+  body {
+    width: 90%;
+  }
+
+  #navigation {
+    padding: 1rem 0 0;
+  }
+
+  .hero-container {
+    left: 0%;
+    padding-right: 2rem;
+  }
+}
