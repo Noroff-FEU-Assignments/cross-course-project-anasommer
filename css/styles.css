@@ -119,8 +119,10 @@ p {
 }
 
 .nav-icon {
-  width: 75%;
+  width: 35%;
   padding-right: 30px;
+  cursor: pointer;
+  margin-left: 1rem;
 }
 
 /* MAIN SECTION */
@@ -251,7 +253,7 @@ footer {
 
 @media (max-width: 1600px) {
   .nav-icon {
-    width: 65%;
+    width: 30%;
     padding-right: 0px;
   }
 
@@ -277,6 +279,11 @@ footer {
   }
   #navigation ul li {
     font-size: 1.3rem;
+  }
+
+  .nav-icon {
+    width: 25%;
+    padding-right: 0;
   }
 
   .hero {
@@ -328,6 +335,10 @@ footer {
     margin-top: 1rem;
     text-align: center;
     margin-left: 1rem;
+  }
+
+  .nav-icon {
+    width: 25%;
   }
 
   #hamburger-icon {
