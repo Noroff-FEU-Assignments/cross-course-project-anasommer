@@ -11,9 +11,16 @@ body {
   max-width: 1400px;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Futura Bold", sans-serif;
   color: #272727;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #0a3641;
 }
 
 /* UTILITIES */
@@ -127,6 +134,7 @@ h1 {
 
 .hero h1 {
   margin-bottom: 2rem;
+  font-size: 1.8rem;
 }
 
 .hero-container {
@@ -164,4 +172,14 @@ h1 {
   border-right: 3px solid #58beae;
   margin: 0 5px 0 2px;
   padding-top: 3px;
+}
+
+.share-section {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.share-section p {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
 }
