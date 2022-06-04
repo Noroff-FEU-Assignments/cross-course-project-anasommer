@@ -6,9 +6,9 @@
 }
 
 body {
-  width: 80%;
   margin: 0 auto;
   max-width: 1400px;
+  width: 80%;
 }
 
 h1,
@@ -46,7 +46,6 @@ p {
 
 .btn:hover {
   background-color: #fff;
-  border: 3px solid #58beae;
 }
 
 .margin-left {
@@ -389,7 +388,7 @@ footer {
 
   .link-mobile:hover {
     background-color: #58beae;
-    border: 3px solid #fff;
+    border-color: #fff;
     color: #0a3641;
   }
 
