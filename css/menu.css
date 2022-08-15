@@ -1,0 +1,40 @@
+#menu {
+  display: flexbox;
+  max-width: 400px;
+  margin: 1.2rem auto;
+  text-align: center;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li {
+  padding: 0.7rem;
+}
+
+.relativeContainer {
+  position: relative;
+}
+
+#search-bar {
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 2px solid #58beae;
+  border-radius: 10px;
+  padding: 1.3rem;
+  font-weight: 300;
+}
+
+#search-btn {
+  position: absolute;
+  left: 280px;
+  top: 18px;
+  width: 40px;
+}
+
+#search-btn:hover {
+  cursor: pointer;
+}

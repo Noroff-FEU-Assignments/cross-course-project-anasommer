@@ -1,3 +1,7 @@
+/* OTHER PAGES STYLES IMPORT */
+
+@import url(menu.css);
+
 /* FONTS */
 @font-face {
   font-family: Futura;
@@ -63,6 +67,10 @@ p {
 
 .margin-left {
   margin-left: 1rem;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
 }
 
 /* NAVIGATION */

@@ -12,40 +12,36 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
-    <header id="navigation">
-      <nav>
+    <header>
+      <nav id="menu">
         <ul>
           <li>
-            <a href="/index.html"
+            <a href="/menu.html" class="desktop-hidden"
               ><img
-                src="images/rainyDaysLogo.png"
-                id="logo"
-                alt="Rainy Days logo"
+                src="images/close.png"
+                class="nav-icon"
+                alt="close menu icon"
             /></a>
           </li>
-          <li><a href="mens.html" class="nav-link">Mens</a></li>
-          <img src="images/line.png" id="line" />
-          <li><a href="womens.html" class="nav-link">Womens</a></li>
+          <li><a href="/womens.html" class="link">SHOP WOMEN'S</a></li>
+          <li><a href="/mens.html" class="link">SHOP MEN'S</a></li>
+          <li class="relativeContainer">
+            <input
+              type="search"
+              name="search"
+              placeholder="Search..."
+              id="search-bar"
+              class="roboto-font"
+            />
+
+            <img
+              src="/images/iconSearch.png"
+              alt="search icon"
+              id="search-btn"
+            />
+          </li>
         </ul>
       </nav>
-      <div id="nav-icons">
-        <a href="/search.html"
-          ><img
-            src="images/iconSearch.png"
-            class="nav-icon"
-            id="search"
-            alt="search icon"
-        /></a>
-        <a href="/card.html"
-          ><img
-            src="images/iconAdd.png"
-            class="nav-icon"
-            alt="add to card icon"
-        /></a>
-        <a href="/menu.html" class="desktop-hidden"
-          ><img src="images/close.png" class="nav-icon" alt="close menu icon"
-        /></a>
-      </div>
     </header>
   </body>
 </html>
