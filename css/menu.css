@@ -1,6 +1,6 @@
 #menu {
   display: flexbox;
-  max-width: 400px;
+  max-width: 320px;
   margin: 1.2rem auto;
   text-align: center;
 }
@@ -18,7 +18,7 @@
 }
 
 #search-bar {
-  width: 280px;
+  width: 250px;
   height: 40px;
   text-align: center;
   font-size: 1.2rem;
@@ -30,7 +30,7 @@
 
 #search-btn {
   position: absolute;
-  left: 280px;
+  left: 220px;
   top: 18px;
   width: 40px;
 }
