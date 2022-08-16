@@ -2,3 +2,55 @@
   text-align: center;
   margin-top: 1rem;
 }
+
+.jacket-item {
+  margin: 1rem 0 4rem 0;
+}
+
+.jacket-image {
+  width: 280px;
+  border: 1px solid #000;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.jacket-h2 {
+  text-transform: none;
+  color: #0a3641;
+}
+
+.jacket-desc {
+  font-size: 20px;
+  font-weight: 300;
+  width: 280px;
+  margin: 0.2rem auto;
+  text-align: center;
+  color: #272727;
+}
+
+.jacket-price {
+  color: #0a3641;
+  font-size: 20px;
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.btn-add {
+  display: inline-block;
+  background-color: #58beae;
+  color: #0a3641;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 25px;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 3px solid #58beae;
+  transition: all ease 50ms;
+}
+
+.btn-add:hover {
+  background-color: #fff;
+  border: 3px solid #58beae;
+}
