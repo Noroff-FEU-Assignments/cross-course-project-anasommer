@@ -1,0 +1,20 @@
+#added {
+  margin: 3rem auto;
+  width: 300px;
+  text-align: center;
+  background-color: #0a3641;
+}
+
+.added-heading {
+  margin: 1rem;
+  color: #fff;
+  font-size: 30px;
+}
+
+#added a {
+  margin-top: 1.3rem;
+}
+
+#added a:first-of-type {
+  width: 200px;
+}

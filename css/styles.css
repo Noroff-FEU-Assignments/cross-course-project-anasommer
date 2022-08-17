@@ -1,5 +1,6 @@
 /* OTHER PAGES STYLES IMPORT */
 
+@import url(added.css);
 @import url(menu.css);
 @import url(jackets.css);
 
@@ -70,6 +71,46 @@ p {
 
 .btn:hover {
   background-color: #fff;
+}
+
+.btn-light {
+  display: inline-block;
+  background-color: #fff;
+  color: #0a3641;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 25px;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 3px solid #58beae;
+  transition: all ease 50ms;
+}
+
+.btn-light:hover {
+  background-color: #58beae;
+  border-color: #fff;
+}
+
+.btn-add {
+  display: inline-block;
+  background-color: #58beae;
+  color: #0a3641;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 25px;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 3px solid #58beae;
+  transition: all ease 50ms;
+}
+
+.btn-add:hover {
+  background-color: #fff;
+  border: 3px solid #58beae;
 }
 
 .margin-left {
@@ -377,7 +418,7 @@ footer {
     gap: 1rem;
   }
 
-  .link-mobile {
+  .btn-mobile {
     margin: 0.3rem auto;
     padding: 1rem 1.3rem;
     background-color: #fff;
@@ -391,7 +432,7 @@ footer {
     width: 180px;
   }
 
-  .link-mobile:hover {
+  .btn-mobile:hover {
     background-color: #58beae;
     border-color: #fff;
     color: #0a3641;

@@ -50,26 +50,6 @@ h1 {
   margin-top: 0.8rem;
 }
 
-.btn-add {
-  display: inline-block;
-  background-color: #58beae;
-  color: #0a3641;
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 10px 25px;
-  margin: 0.5rem 0;
-  border-radius: 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-  border: 3px solid #58beae;
-  transition: all ease 50ms;
-}
-
-.btn-add:hover {
-  background-color: #fff;
-  border: 3px solid #58beae;
-}
-
 /* MEDIA QUERIES */
 
 @media (min-width: 680px) {
