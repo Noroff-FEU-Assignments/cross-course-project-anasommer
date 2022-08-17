@@ -18,3 +18,18 @@
 #added a:first-of-type {
   width: 200px;
 }
+
+@media (min-width: 680px) {
+  #added {
+    width: 750px;
+    padding-top: 0.5rem;
+  }
+
+  #added img {
+    float: left;
+  }
+
+  #added a {
+    margin: 1rem 3rem;
+  }
+}
