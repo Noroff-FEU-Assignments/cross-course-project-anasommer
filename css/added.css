@@ -9,14 +9,18 @@
   margin: 1rem;
   color: #fff;
   font-size: 30px;
+  text-transform: none;
+}
+
+.added-text {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 #added a {
   margin-top: 1.3rem;
-}
-
-#added a:first-of-type {
-  width: 200px;
 }
 
 @media (min-width: 680px) {

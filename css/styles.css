@@ -3,6 +3,7 @@
 @import url(added.css);
 @import url(menu.css);
 @import url(jackets.css);
+@import url(about.css);
 
 /* FONTS */
 @font-face {
@@ -106,6 +107,7 @@ p {
   font-weight: 600;
   border: 3px solid #58beae;
   transition: all ease 50ms;
+  width: 200px;
 }
 
 .btn-add:hover {
