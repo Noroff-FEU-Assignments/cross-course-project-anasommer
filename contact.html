@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rainy Days contact page, from here you can send your message to our company."
+    />
+    <title>Contact Us | Rainy Days</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body id="contact-container">
+    <main>
+      <h1 class="added-heading futura-font">CONTACT US</h1>
+      <form action="/index.html" method="POST" id="contact-form">
+        <label for="name" class="roboto-font"
+          >Name:
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="John Johnson"
+            class="roboto-font"
+          />
+        </label>
+        <label for="email" class="roboto-font"
+          >Email:
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            class="roboto-font"
+          />
+        </label>
+        <label for="msg" class="roboto-font"
+          >Message:
+          <textarea
+            name="msg"
+            id="msg"
+            cols="10"
+            rows="10"
+            placeholder="Write your message here..."
+            class="roboto-font"
+          ></textarea>
+        </label>
+        <input
+          type="submit"
+          value="Send"
+          class="btn-light roboto-font submit-btn"
+        />
+      </form>
+    </main>
+  </body>
+</html>
