@@ -1,14 +1,29 @@
+/* BASIC STYLES */
+h1 {
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.breadcrumb {
+  margin-top: 0.5rem;
+}
+
+.breadcrumb a {
+  color: #272727;
+}
+
 #jackets-container {
   text-align: center;
   margin-top: 1rem;
 }
 
 .jacket-item {
-  margin: 1rem 0 4rem 0;
+  margin: 1rem 1rem 4rem 0;
 }
 
 .jacket-image {
   width: 280px;
+  height: 300px;
   border: 1px solid #000;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -53,4 +68,28 @@
 .btn-add:hover {
   background-color: #fff;
   border: 3px solid #58beae;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 680px) {
+  #jackets-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    align-items: stretch;
+  }
+}
+
+@media (min-width: 1200px) {
+  #jackets-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 900px;
+    align-items: stretch;
+  }
 }
