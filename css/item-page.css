@@ -1,0 +1,39 @@
+.item-size {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  flex-wrap: wrap;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.item-size li {
+  margin: 7px 5px;
+  padding: 2px;
+}
+
+.item-size a {
+  color: #272727;
+  text-decoration: none;
+}
+
+.item-size-active {
+  border: 2px solid #73bbae;
+}
+
+.item-info {
+  margin-top: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 1.5rem;
+}
+
+.item-desc {
+  text-align: justify;
+  width: 70%;
+  margin: 0.7rem auto;
+  font-weight: 300;
+}

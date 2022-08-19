@@ -5,6 +5,7 @@
 @import url(jackets.css);
 @import url(about.css);
 @import url(contact.css);
+@import url(item-page.css);
 
 /* FONTS */
 @font-face {
@@ -19,8 +20,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
-.futura-font {
+.futura-font-bold {
   font-family: "Futura Bold", sans-serif;
+}
+
+.futura-font {
+  font-family: "Futura", sans-serif;
 }
 
 .roboto-font {
@@ -48,6 +53,15 @@ h2 {
 
 p {
   color: #0a3641;
+}
+
+h3 {
+  color: #272727;
+}
+
+h4 {
+  color: #272727;
+  text-transform: uppercase;
 }
 
 /* UTILITIES */
