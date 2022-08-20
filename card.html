@@ -81,7 +81,36 @@
         <p>Shipping: Free</p>
         <p class="cart-total">Total: 1500 NOK</p>
       </section>
-      <section class="payment-info"></section>
+      <section class="payment-info">
+        <h2 class="futura-font-bold">Payment info</h2>
+        <form class="roboto-font">
+          <legend class="bold">Payment Method:</legend>
+
+         <label class="payment-label">
+            <input
+              type="radio"
+              name="payment"
+              value="credit-card"
+              class="payment-method"
+            />
+            Credit Card
+          </label> </br>
+          <label class="payment-label"><input
+              type="radio"
+              name="payment"
+              value="paypal"
+              class="payment-method"
+            />
+            Paypal
+          </label>
+          <legend class="bold">Name On Card:</legend>
+          <input type="text" class="payment-details" placeholder="Enter your name">
+          <legend class="bold">Card Number:</legend>
+          <input type="text" class="payment-details" placeholder="Enter card number">
+          <legend class="bold">Expiration Date:</legend>
+          <input type="text" class="payment-details" placeholder="Enter card number">
+        </form>
+      </section>
     </main>
 
     <footer>

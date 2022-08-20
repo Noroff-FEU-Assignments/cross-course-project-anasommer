@@ -49,4 +49,39 @@
 .payment-info {
   background-color: #f7f7f7;
   border: 1px solid #000;
+  padding: 10px 20px 0;
+}
+
+.payment-info h2 {
+  color: #0a3641;
+}
+
+.payment-info form {
+  margin-top: 10px;
+  color: #183540;
+  font-size: 20px;
+}
+
+.payment-method {
+  margin: 10px 0;
+  width: auto;
+}
+
+.payment-label {
+  color: #183540;
+}
+
+.payment-details {
+  border: none;
+  text-align: left;
+  margin: 10px 0;
+  background-color: #f7f7f7;
+  border-bottom: #0a3641 1px solid;
+  border-radius: 0;
+  width: auto;
+  padding: 3px;
+}
+
+.payment-details::placeholder {
+  font-size: 16px;
 }
