@@ -33,6 +33,15 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* VARIABLES */
+:root {
+  --brown-color: #272727;
+  --white-color: #fff;
+  --light-green-color: #58beae;
+  --dark-blue-color: #0a3641;
+  --cyan-color: #73bbae;
+}
+
 /* BASIC STYLES */
 * {
   box-sizing: border-box;
@@ -48,23 +57,22 @@ body {
 
 h1,
 h2 {
-  color: #272727;
+  color: var(--brown-color);
   text-transform: uppercase;
 }
 
 p {
-  color: #0a3641;
+  color: var(--dark-blue-color);
 }
 
 h3 {
-  color: #272727;
+  color: var(--brown-color);
 }
 
 h4 {
-  color: #272727;
+  color: var(--brown-color);
   text-transform: uppercase;
   text-align: center;
-
   margin-top: 20px;
 }
 
@@ -78,29 +86,29 @@ h4 {
   display: inline-block;
   margin: 0 auto;
   padding: 0.8rem 1.6rem;
-  background-color: #58beae;
+  background-color: var(--light-green-color);
   border: none;
   border-radius: 24px;
   text-decoration: none;
-  color: #0a3641;
+  color: var(--dark-blue-color);
   font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
-  border: 3px solid #58beae;
+  border: 3px solid var(--light-green-color);
   transition: 0.3s;
   box-shadow: 1px 2px 5px 1px rgb(100, 100, 100);
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: var(--white-color);
 }
 
 .btn-light {
   display: inline-block;
-  background-color: #fff;
-  color: #0a3641;
+  background-color: var(--white-color);
+  color: var(--dark-blue-color);
   text-decoration: none;
   font-size: 1rem;
   padding: 10px 25px;
@@ -108,19 +116,19 @@ h4 {
   border-radius: 20px;
   text-transform: uppercase;
   font-weight: 600;
-  border: 3px solid #58beae;
+  border: 3px solid var(--light-green-color);
   transition: all ease 50ms;
 }
 
 .btn-light:hover {
-  background-color: #58beae;
-  border-color: #fff;
+  background-color: var(--light-green-color);
+  border-color: var(--white-color);
 }
 
 .btn-add {
   display: inline-block;
-  background-color: #58beae;
-  color: #0a3641;
+  background-color: var(--light-green-color);
+  color: var(--dark-blue-color);
   text-decoration: none;
   font-size: 1rem;
   padding: 10px 25px;
@@ -128,14 +136,14 @@ h4 {
   border-radius: 20px;
   text-transform: uppercase;
   font-weight: 600;
-  border: 3px solid #58beae;
+  border: 3px solid var(--light-green-color);
   transition: all ease 50ms;
   width: 200px;
 }
 
 .btn-add:hover {
-  background-color: #fff;
-  border: 3px solid #58beae;
+  background-color: var(--white-color);
+  border: 3px solid var(--light-green-color);
 }
 
 .margin-left {
@@ -151,7 +159,7 @@ h4 {
 #navigation {
   display: flex;
   align-items: baseline;
-  border-bottom: 1.5px solid #272727;
+  border-bottom: 1.5px solid var(--brown-color);
   padding: 1rem;
 }
 
@@ -186,11 +194,11 @@ h4 {
 
 .nav-link {
   text-decoration: none;
-  color: #0a3641;
+  color: var(--dark-blue-color);
 }
 
 .nav-link:hover {
-  color: #58beae;
+  color: var(--light-green-color);
 }
 
 .nav-icon {
@@ -231,7 +239,7 @@ h4 {
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
-  background-color: #fff;
+  background-color: var(--white-color);
   box-shadow: 0px 5px 15px 20px rgba(255, 255, 255);
   padding: 3rem;
   border-radius: 4px;
@@ -245,18 +253,18 @@ h4 {
 }
 
 .link {
-  color: #0a3641;
+  color: var(--dark-blue-color);
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .link:hover {
-  color: #58beae;
+  color: var(--light-green-color);
 }
 
 #separator {
-  border-right: 3px solid #58beae;
+  border-right: 3px solid var(--light-green-color);
   margin: 0 5px 0 5px;
   padding-top: 3px;
 }
@@ -291,7 +299,7 @@ h4 {
 }
 
 .gallery-item-text {
-  color: #fff;
+  color: var(--white-color);
   text-transform: uppercase;
   font-family: "Futura Bold", sans-serif;
   font-size: 1.5rem;
@@ -304,7 +312,7 @@ h4 {
 /* FOOTER */
 
 footer {
-  border-top: 1.5px solid #272727;
+  border-top: 1.5px solid var(--brown-color);
   padding-top: 1.5rem;
 }
 
@@ -450,21 +458,21 @@ footer {
   .btn-mobile {
     margin: 0.3rem auto;
     padding: 1rem 1.3rem;
-    background-color: #fff;
+    background-color: var(--white-color);
     border: none;
     border-radius: 24px;
     text-decoration: none;
-    color: #0a3641;
+    color: var(--dark-blue-color);
     font-size: 1rem;
-    border: 3px solid #58beae;
+    border: 3px solid var(--light-green-color);
     transition: 0.3s;
     width: 180px;
   }
 
   .btn-mobile:hover {
-    background-color: #58beae;
-    border-color: #fff;
-    color: #0a3641;
+    background-color: var(--light-green-color);
+    border-color: var(--white-color);
+    color: var(--dark-blue-color);
   }
 
   .gallery-item img {

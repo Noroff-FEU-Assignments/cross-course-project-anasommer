@@ -9,7 +9,7 @@ h1 {
 }
 
 .breadcrumb a {
-  color: #272727;
+  color: var(--brown-color);
 }
 
 #jackets-container {
@@ -31,7 +31,7 @@ h1 {
 
 .jacket-h2 {
   text-transform: none;
-  color: #0a3641;
+  color: var(--dark-blue-color);
   margin-top: 5px;
 }
 
@@ -41,11 +41,11 @@ h1 {
   width: 280px;
   margin: 0.2rem auto;
   text-align: center;
-  color: #272727;
+  color: var(--brown-color);
 }
 
 .jacket-price {
-  color: #0a3641;
+  color: var(--dark-blue-color);
   font-size: 20px;
   display: block;
   margin-top: 0.8rem;

@@ -26,12 +26,12 @@
 }
 
 .item-size a {
-  color: #272727;
+  color: var(--brown-color);
   text-decoration: none;
 }
 
 .item-size-active {
-  border: 2px solid #73bbae;
+  border: 2px solid var(--cyan-color);
 }
 
 .item-info {
@@ -59,7 +59,7 @@
 }
 
 .extra-info {
-  color: #272727;
+  color: var(--brown-color);
   text-align: left;
 }
 

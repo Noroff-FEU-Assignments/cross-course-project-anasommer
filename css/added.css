@@ -2,18 +2,18 @@
   margin: 3rem auto;
   width: 300px;
   text-align: center;
-  background-color: #0a3641;
+  background-color: var(--dark-blue-color);
 }
 
 .added-heading {
   margin: 1rem;
-  color: #fff;
+  color: var(--white-color);
   font-size: 30px;
   text-transform: none;
 }
 
 .added-text {
-  color: #fff;
+  color: var(--white-color);
   margin-bottom: 1rem;
   font-size: 20px;
   font-weight: 300;

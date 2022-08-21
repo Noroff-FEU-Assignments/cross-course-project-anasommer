@@ -17,7 +17,7 @@
 }
 
 .cart-heading {
-  color: #0a3641;
+  color: var(--dark-blue-color);
 }
 
 .cart-value {
@@ -30,7 +30,7 @@
 .cart-details {
   text-align: left;
   margin: 10px auto;
-  border-bottom: 2px solid #73bbae;
+  border-bottom: 2px solid var(--cyan-color);
   border: 200px;
 }
 
@@ -41,7 +41,7 @@
 .cart-total {
   font-weight: bold;
   font-size: 24px;
-  border-top: 2px solid #73bbae;
+  border-top: 2px solid var(--cyan-color);
   margin-top: 50px;
   padding-top: 20px;
 }
@@ -54,7 +54,7 @@
 }
 
 .payment-info h2 {
-  color: #0a3641;
+  color: var(--dark-blue-color);
 }
 
 .payment-info form {
@@ -80,7 +80,7 @@
 .card-number {
   max-width: 80%;
   margin-bottom: 20px;
-  border: 1px solid #0a3641;
+  border: 1px solid var(--dark-blue-color);
 }
 
 .date-field {
@@ -92,9 +92,9 @@
 
 .month select,
 .year select {
-  border: 1px solid #0a3641;
+  border: 1px solid var(--dark-blue-color);
   border-radius: 4px;
-  color: #0a3641;
+  color: var(--dark-blue-color);
   font-size: 18px;
   font-weight: bold;
   padding-left: 10px;
@@ -103,7 +103,7 @@
 .cvv-input input {
   margin-top: 20px;
   width: 145px;
-  border: 1px solid #0a3641;
+  border: 1px solid var(--dark-blue-color);
   border-radius: 4px;
 }
 

@@ -2,7 +2,7 @@
   margin: 3rem auto;
   width: 350px;
   text-align: center;
-  background-color: #0a3641;
+  background-color: var(--dark-blue-color);
 }
 
 #contact-form {
@@ -11,7 +11,7 @@
 }
 
 label {
-  color: #fff;
+  color: var(--white-color);
 }
 
 input[type="submit"]:hover {
@@ -21,7 +21,7 @@ input[type="submit"]:hover {
 input,
 textarea {
   border-radius: 10px;
-  border: 1.5px solid #73bbae;
+  border: 1.5px solid var(--cyan-color);
   padding: 0.5rem;
   margin: 0.5rem;
   width: 350px;
@@ -38,7 +38,7 @@ textarea::placeholder {
 }
 
 .contact-phone {
-  color: #fff;
+  color: var(--white-color);
   font-weight: 300;
   letter-spacing: 1.5px;
 }
