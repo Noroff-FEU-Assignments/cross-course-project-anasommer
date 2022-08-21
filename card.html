@@ -103,12 +103,53 @@
             />
             Paypal
           </label>
-          <legend class="bold">Name On Card:</legend>
-          <input type="text" class="payment-details" placeholder="Enter your name">
-          <legend class="bold">Card Number:</legend>
-          <input type="text" class="payment-details" placeholder="Enter card number">
-          <legend class="bold">Expiration Date:</legend>
-          <input type="text" class="payment-details" placeholder="Enter card number">
+        
+          <div class="form-body">
+            <input type="text" class="card-number roboto-font" placeholder="Card Number">
+            <p class="payment-date roboto-font">Expiration Date:</p>
+            <div class="date-field">  
+           
+              <div class="month roboto-font">
+              
+                <select name="Month">
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="year roboto-font">
+              
+                <select name="Year">
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  <option value="2031">2031</option>
+                </select>
+              </div>
+            </div>
+            <div class="card-verification">
+              <div class="cvv-input">
+                <input type="text" placeholder="CVV">
+              </div>
+            </div>
+            <a href="cart.html" class="btn-add roboto-font check-out-btn">Check Out</a>
+          </div>
+         
         </form>
       </section>
     </main>
