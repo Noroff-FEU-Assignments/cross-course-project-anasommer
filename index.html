@@ -10,75 +10,108 @@
     />
     <title>Rainy Days</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- Hotjar Tracking Code for https://gorgeous-palmier-85be1d.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3261507, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
   <body>
     <header id="navigation">
       <nav>
         <ul>
           <li>
-            <img
-              src="images/rainyDaysLogo.png"
-              id="logo"
-              alt="Rainy Days logo"
-            />
+            <a href="/index.html"
+              ><img
+                src="images/rainyDaysLogo.png"
+                id="logo"
+                alt="Rainy Days logo"
+            /></a>
           </li>
-          <li><a href="mens.html" class="nav-link">Mens</a></li>
+          <li>
+            <a href="mens.html" class="nav-link futura-font-bold">Mens</a>
+          </li>
           <img src="images/line.png" id="line" />
-          <li><a href="womens.html" class="nav-link">Womens</a></li>
+          <li>
+            <a href="womens.html" class="nav-link futura-font-bold">Womens</a>
+          </li>
         </ul>
       </nav>
       <div id="nav-icons">
-        <img
-          src="images/iconSearch.png"
-          class="nav-icon"
-          id="search"
-          alt="search icon"
-        />
-        <img src="images/iconAdd.png" class="nav-icon" alt="add to card icon" />
-        <img
-          src="images/hamburger-icon.png"
-          class="nav-icon"
-          id="hamburger-icon"
-          alt="hamburger menu icon"
-        />
+        <a href="/search.html"
+          ><img
+            src="images/iconSearch.png"
+            class="nav-icon"
+            id="search"
+            alt="search icon"
+        /></a>
+        <a href="/cart.html"
+          ><img
+            src="images/iconAdd.png"
+            class="nav-icon"
+            alt="add to card icon"
+        /></a>
+        <a href="/menu.html" class="desktop-hidden"
+          ><img
+            src="images/hamburger-icon.png"
+            class="nav-icon"
+            alt="hamburger menu icon"
+        /></a>
       </div>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-container">
-          <h1>Clothes for outdoor adventures</h1>
+          <h1 class="mobile-hidden futura-font-bold">
+            Clothes for outdoor adventures
+          </h1>
           <a href="about.html" class="btn margin-left mobile-hidden"
             >Learn more</a
           >
           <div class="hero-links">
-            <a href="womens.html" class="link link-mobile">Shop Women's</a>
+            <a href="womens.html" class="link btn-mobile roboto-font"
+              >Shop Women's</a
+            >
             <span id="separator"></span>
-            <a href="mens.html" class="link link-mobile">Shop Men's</a>
+            <a href="mens.html" class="link btn-mobile roboto-font"
+              >Shop Men's</a
+            >
           </div>
         </div>
       </section>
 
       <section class="share-section">
-        <h2>Share your adventure!</h2>
-        <p>#rainydays | @rainydays</p>
+        <h2 class="futura-font-bold">Share your adventure!</h2>
+        <p class="roboto-font">#rainydays | @rainydays</p>
       </section>
       <section class="gallery">
         <div class="gallery-item">
           <img src="../images/homeImg2.jpg" alt="Man in canoe" />
-          <p class="gallery-item-text">#Canoeing</p>
+          <p class="gallery-item-text roboto-font">#Canoeing</p>
         </div>
         <div class="gallery-item">
           <img src="../images/homeImg3.jpg" alt="Image of hiking man" />
-          <p class="gallery-item-text">#Hiking</p>
+          <p class="gallery-item-text roboto-font">#Hiking</p>
         </div>
         <div class="gallery-item">
           <img src="../images/homeImg4.jpg" alt="Woman reading a map" />
-          <p class="gallery-item-text">#Camping</p>
+          <p class="gallery-item-text roboto-font">#Camping</p>
         </div>
         <div class="gallery-item">
           <img src="../images/homeImg5.jpg" alt="Man skiing" />
-          <p class="gallery-item-text">#Skiing</p>
+          <p class="gallery-item-text roboto-font">#Skiing</p>
         </div>
       </section>
     </main>
@@ -95,8 +128,8 @@
         /></a>
       </div>
       <div class="footer-links">
-        <a href="contact.html" class="link">contact us</a>
-        <a href="about.html" class="link">about us</a>
+        <a href="contact.html" class="link futura-font-bold">contact us</a>
+        <a href="about.html" class="link futura-font-bold">about us</a>
       </div>
     </footer>
   </body>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rainy Days shopping cart, here you can look at your order and pay for it."
+    />
+    <title>Jacket Three | Rainy Days</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- Hotjar Tracking Code for https://gorgeous-palmier-85be1d.netlify.app/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3261507,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  </head>
+  <body>
+    <header id="navigation">
+      <nav>
+        <ul>
+          <li>
+            <a href="/index.html"
+              ><img
+                src="images/rainyDaysLogo.png"
+                id="logo"
+                alt="Rainy Days logo"
+            /></a>
+          </li>
+          <li>
+            <a href="mens.html" class="nav-link futura-font-bold">Mens</a>
+          </li>
+          <img src="images/line.png" id="line" />
+          <li>
+            <a href="womens.html" class="nav-link futura-font-bold">Womens</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="nav-icons">
+        <a href="/search.html"
+          ><img
+            src="images/iconSearch.png"
+            class="nav-icon"
+            id="search"
+            alt="search icon"
+        /></a>
+        <a href="/cart.html"
+          ><img
+            src="images/iconAdd.png"
+            class="nav-icon"
+            alt="add to card icon"
+        /></a>
+        <a href="/menu.html" class="desktop-hidden"
+          ><img
+            src="images/hamburger-icon.png"
+            class="nav-icon"
+            alt="hamburger menu icon"
+        /></a>
+      </div>
+    </header>
+
+    <main class="cart-desktop">
+      <div class="breadcrumb mobile-hidden roboto-font" aria-label="Breadcrumb">
+        <a href="/index.html">Rainy Days</a> <span>> Shopping Cart</span>
+      </div>
+      <h1 class="futura-font-bold">Shopping Cart</h1>
+
+      <section id="cart-container">
+        <img
+          src="/images/assets/jacket4.jpeg"
+          alt="Jacket image"
+          class="cart-image"
+        />
+        <div class="cart-info">
+          <h3 class="futura-font-bold cart-heading">Jacket Three</h3>
+          <p class="roboto-font">Size: S</p>
+
+          <a href="#"><img src="/images/minus-icon.png" alt="minus icon" /></a
+          ><span class="cart-value roboto-font">1</span>
+          <a href="#"><img src="/images/pluss-icon.png" alt="pluss icon" /></a>
+        </div>
+      </section>
+      <section class="cart-details roboto-font">
+        <p>Subtotal: 1500 NOK</p>
+        <p>Shipping: Free</p>
+        <p class="cart-total">Total: 1500 NOK</p>
+      </section>
+      <section class="payment-info">
+        <h2 class="futura-font-bold">Payment info</h2>
+        <form class="roboto-font">
+          <legend class="bold">Payment Method:</legend>
+
+         <label class="payment-label">
+            <input
+              type="radio"
+              name="payment"
+              value="credit-card"
+              class="payment-method"
+            />
+            Credit Card
+          </label> </br>
+          <label class="payment-label"><input
+              type="radio"
+              name="payment"
+              value="paypal"
+              class="payment-method"
+            />
+            Paypal
+          </label>
+        
+          <div class="form-body">
+            <input type="text" class="card-number roboto-font" placeholder="Card Number">
+            <p class="payment-date roboto-font">Expiration Date:</p>
+            <div class="date-field">  
+           
+              <div class="month roboto-font">
+              
+                <select name="Month">
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="year roboto-font">
+              
+                <select name="Year">
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  <option value="2031">2031</option>
+                </select>
+              </div>
+            </div>
+            <div class="card-verification">
+              <div class="cvv-input">
+                <input type="text" placeholder="CVV">
+              </div>
+            </div>
+            <a href="/checkout-success.html" class="btn-add roboto-font check-out-btn">Check Out</a>
+          </div>
+         
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-icons">
+        <a href="https://www.facebook.com/"
+          ><img src="../images/fb-icon.png" alt="Facebook icon"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="../images/instagram-icon.png" alt="Instagram icon"
+        /></a>
+        <a href="https://www.youtube.com/"
+          ><img src="../images/youtube-icon.png" alt="Youtube icon"
+        /></a>
+      </div>
+      <div class="footer-links">
+        <a href="contact.html" class="link futura-font-bold">contact us</a>
+        <a href="about.html" class="link futura-font-bold">about us</a>
+      </div>
+    </footer>
+     </body>
+</html>

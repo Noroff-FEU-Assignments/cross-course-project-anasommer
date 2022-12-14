@@ -1,3 +1,13 @@
+/* OTHER PAGES STYLES IMPORT */
+
+@import url(added.css);
+@import url(menu.css);
+@import url(jackets.css);
+@import url(about.css);
+@import url(contact.css);
+@import url(item-page.css);
+@import url(cart.css);
+
 /* FONTS */
 @font-face {
   font-family: Futura;
@@ -10,6 +20,27 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+.futura-font-bold {
+  font-family: "Futura Bold", sans-serif;
+}
+
+.futura-font {
+  font-family: "Futura", sans-serif;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+
+/* VARIABLES */
+:root {
+  --brown-color: #272727;
+  --white-color: #fff;
+  --light-green-color: #58beae;
+  --dark-blue-color: #0a3641;
+  --cyan-color: #73bbae;
+}
 
 /* BASIC STYLES */
 * {
@@ -26,14 +57,27 @@ body {
 
 h1,
 h2 {
-  font-family: "Futura Bold", sans-serif;
-  color: #272727;
+  color: var(--brown-color);
   text-transform: uppercase;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
-  color: #0a3641;
+  color: var(--dark-blue-color);
+}
+
+h3 {
+  color: var(--brown-color);
+}
+
+h4 {
+  color: var(--brown-color);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* UTILITIES */
@@ -42,23 +86,64 @@ p {
   display: inline-block;
   margin: 0 auto;
   padding: 0.8rem 1.6rem;
-  background-color: #58beae;
+  background-color: var(--light-green-color);
   border: none;
   border-radius: 24px;
   text-decoration: none;
-  color: #0a3641;
+  color: var(--dark-blue-color);
   font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
-  border: 3px solid #58beae;
+  border: 3px solid var(--light-green-color);
   transition: 0.3s;
   box-shadow: 1px 2px 5px 1px rgb(100, 100, 100);
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: var(--white-color);
+}
+
+.btn-light {
+  display: inline-block;
+  background-color: var(--white-color);
+  color: var(--dark-blue-color);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 25px;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 3px solid var(--light-green-color);
+  transition: all ease 50ms;
+}
+
+.btn-light:hover {
+  background-color: var(--light-green-color);
+  border-color: var(--white-color);
+}
+
+.btn-add {
+  display: inline-block;
+  background-color: var(--light-green-color);
+  color: var(--dark-blue-color);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 25px;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 3px solid var(--light-green-color);
+  transition: all ease 50ms;
+  width: 200px;
+}
+
+.btn-add:hover {
+  background-color: var(--white-color);
+  border: 3px solid var(--light-green-color);
 }
 
 .margin-left {
@@ -74,14 +159,13 @@ p {
 #navigation {
   display: flex;
   align-items: baseline;
-  border-bottom: 1.5px solid #272727;
+  border-bottom: 1.5px solid var(--brown-color);
   padding: 1rem;
 }
 
 #navigation ul li {
   list-style: none;
   display: inline-block;
-  font-family: "Futura Bold", sans-serif;
   font-size: 1.3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -110,22 +194,25 @@ p {
 
 .nav-link {
   text-decoration: none;
-  color: #0a3641;
+  color: var(--dark-blue-color);
 }
 
 .nav-link:hover {
-  color: #58beae;
+  color: var(--light-green-color);
 }
 
 .nav-icon {
-  width: 35%;
+  width: 60%;
   padding-right: 30px;
   cursor: pointer;
   margin-left: 1rem;
 }
 
-/* MAIN SECTION */
+.nav-icon-close {
+  width: 20px;
+}
 
+/* MAIN SECTION */
 .desktop-hidden {
   display: none;
 }
@@ -152,7 +239,7 @@ p {
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
-  background-color: #fff;
+  background-color: var(--white-color);
   box-shadow: 0px 5px 15px 20px rgba(255, 255, 255);
   padding: 3rem;
   border-radius: 4px;
@@ -166,19 +253,18 @@ p {
 }
 
 .link {
-  color: #0a3641;
-  font-family: "Roboto", sans-serif;
+  color: var(--dark-blue-color);
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .link:hover {
-  color: #58beae;
+  color: var(--light-green-color);
 }
 
 #separator {
-  border-right: 3px solid #58beae;
+  border-right: 3px solid var(--light-green-color);
   margin: 0 5px 0 5px;
   padding-top: 3px;
 }
@@ -213,7 +299,7 @@ p {
 }
 
 .gallery-item-text {
-  color: #fff;
+  color: var(--white-color);
   text-transform: uppercase;
   font-family: "Futura Bold", sans-serif;
   font-size: 1.5rem;
@@ -226,7 +312,7 @@ p {
 /* FOOTER */
 
 footer {
-  border-top: 1.5px solid #272727;
+  border-top: 1.5px solid var(--brown-color);
   padding-top: 1.5rem;
 }
 
@@ -252,7 +338,7 @@ footer {
 
 @media (max-width: 1600px) {
   .nav-icon {
-    width: 30%;
+    width: 40%;
     padding-right: 0px;
   }
 
@@ -281,7 +367,7 @@ footer {
   }
 
   .nav-icon {
-    width: 25%;
+    width: 40%;
     padding-right: 0;
   }
 
@@ -331,13 +417,10 @@ footer {
 
   .desktop-hidden {
     display: inline-block;
-    margin-top: 1rem;
-    text-align: center;
-    margin-left: 1rem;
   }
 
   .nav-icon {
-    width: 25%;
+    width: 45%;
   }
 
   #hamburger-icon {
@@ -346,7 +429,7 @@ footer {
   }
 
   .hero {
-    background-image: url(../images/homeImg1.jpg);
+    background-image: url(../images/mobile-img1.jpg);
     object-fit: cover;
     height: 350px;
     margin: 1rem auto;
@@ -380,24 +463,24 @@ footer {
     gap: 1rem;
   }
 
-  .link-mobile {
-    margin: 0.3rem -2.5rem;
+  .btn-mobile {
+    margin: 0.3rem auto;
     padding: 1rem 1.3rem;
-    background-color: #fff;
+    background-color: var(--white-color);
     border: none;
     border-radius: 24px;
     text-decoration: none;
-    color: #0a3641;
+    color: var(--dark-blue-color);
     font-size: 1rem;
-    border: 3px solid #58beae;
+    border: 3px solid var(--light-green-color);
     transition: 0.3s;
     width: 180px;
   }
 
-  .link-mobile:hover {
-    background-color: #58beae;
-    border-color: #fff;
-    color: #0a3641;
+  .btn-mobile:hover {
+    background-color: var(--light-green-color);
+    border-color: var(--white-color);
+    color: var(--dark-blue-color);
   }
 
   h2 {
