@@ -49,7 +49,7 @@ function validateForm(e) {
     email.value &&
     message.value.length > messageMinLength
   ) {
-    location.href = "/sent.html";
+    location.replace("sent.html");
   }
 }
 
