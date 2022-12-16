@@ -30,9 +30,10 @@
   <body id="contact-container">
     <main>
       <h1 class="added-heading futura-font-bold">CONTACT US</h1>
-      <form action="/index.html" method="POST" id="contact-form">
+      <form action="" method="POST" id="contact-form">
         <label for="name" class="roboto-font"
           >Name:
+          <span id="hint-name">Name should be at least 3 characters long</span>
           <input
             type="text"
             id="name"
@@ -41,8 +42,9 @@
             class="roboto-font"
           />
         </label>
+
         <label for="email" class="roboto-font"
-          >Email:
+          >Email: <span id="hint-email">Please, enter a valid email</span>
           <input
             type="email"
             id="email"
@@ -53,6 +55,7 @@
         </label>
         <label for="msg" class="roboto-font"
           >Message:
+          <span id="hint-message">Please, type at least 40 characters</span>
           <textarea
             name="msg"
             id="msg"
@@ -80,5 +83,6 @@
       src="https://kit.fontawesome.com/6a576be207.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/formValidation.js"></script>
   </body>
 </html>
