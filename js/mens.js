@@ -7,7 +7,7 @@ jacketsData.map((jacket) => {
   if (jacket.sex === "male") {
     jacketsContainer.innerHTML += ` 
                                 <section class="jacket-item">
-                                <a href="/item-page.html"
+                                <a href="/item-page.html?id=${jacket.id}"
                                     ><img src="${jacket.img}" class="jacket-image"
                                 /></a>
                                 <h2 class="jacket-h2 futura-font-bold">${jacket.name}</h2>
@@ -15,7 +15,7 @@ jacketsData.map((jacket) => {
                                     ${jacket.shortDesc}
                                     <span class="jacket-price futura-font-bold">NOK ${jacket.price}.-</span>
                                 </p>
-                                <a href="added.html" class="btn-add roboto-font">Read more...</a>
+                                <a href="/item-page.html?id=${jacket.id}" class="btn-add roboto-font">Show jacket</a>
                                 </section>
                                 `;
   }

@@ -62,57 +62,52 @@
     <main>
       <div class="breadcrumb mobile-hidden roboto-font" aria-label="Breadcrumb">
         <a href="/index.html">Rainy Days</a> >
-        <a href="/womens.html">Women's</a> <span>> Jacket Three</span>
+        <a href="/womens.html" id="breadcrumb">Women's</a>
+        <span>> Jacket Info</span>
       </div>
-      <h1 class="futura-font-bold">Jacket Three</h1>
-
-      <div id="item-container">
-        <section class="margin-bottom">
-          <a href="/item-page.html"
-            ><img src="/images/assets/jacket4.jpeg" class="item-image"
-          /></a>
-        </section>
-        <section>
-          <h2 class="jacket-h2 futura-font-bold">Jacket Three</h2>
-          <p class="item-desc roboto-font">
-            Light wind and waterproof shell jacket engineered for cycling.
+      <h1 class="futura-font-bold">Jacket info</h1>
+      <div id="item-description">
+        <div id="item-container">
+          <section class="margin-bottom">
+            <a href="/item-page.html"
+              ><img src="/images/assets/jacket4.jpeg" class="item-image"
+            /></a>
+          </section>
+          <section>
+            <h2 class="jacket-h2 futura-font-bold" id="item-heading"></h2>
+            <p class="item-desc roboto-font">
+              Light wind and waterproof shell jacket engineered for cycling.
+            </p>
+            <span class="jacket-price futura-font-bold">NOK 1500.-</span>
+            <a href="added.html" class="btn-add roboto-font">+ Add to cart</a>
+          </section>
+        </div>
+        <section class="item-info jacket-item">
+          <h4 class="futura-font">
+            <i class="fa-solid fa-circle-info"></i> Product information:
+          </h4>
+          <p class="roboto-font item-desc">
+            Built to stop the wind from flowing in and chilling you to the bone,
+            the perforated back panel will keep your body heat flowing out as
+            you pedal so you don’t get that sauna effect as you ride.
           </p>
-          <span class="jacket-price futura-font-bold">NOK 1500.-</span>
-          <h3 class="futura-font">Select size:</h3>
-          <ul class="item-size futura-font">
-            <li class="item-size-active"><a href="#">S</a></li>
-            <li><a href="#">M</a></li>
-            <li><a href="#">L</a></li>
-            <li><a href="#">XL</a></li>
-          </ul>
-          <a href="added.html" class="btn-add roboto-font">+ Add to cart</a>
+          <p class="roboto-font item-desc">
+            Secure fit and comfy feel are assured thanks to the elasticized
+            cuffs, while the side pockets give you somewhere keep your hands
+            toasty when you stop.
+          </p>
+          <section class="item-desc roboto-font extra-info">
+            <p><b>Size:</b> S, M, L, XL</p>
+            <p><b>Weight:</b> 200g</p>
+            <p><b>Activity:</b> Cycling</p>
+            <p><b>Material:</b> 100% polyester</p>
+            <p><b>Washability:</b> 40°C</p>
+            <p><b>Season:</b> Spring/Autumn</p>
+            <p><b>Features:</b> Windproof</p>
+            <p><b>Model year:</b> 2022</p>
+          </section>
         </section>
       </div>
-      <section class="item-info jacket-item">
-        <h4 class="futura-font">
-          <i class="fa-solid fa-circle-info"></i> Product information:
-        </h4>
-        <p class="roboto-font item-desc">
-          Built to stop the wind from flowing in and chilling you to the bone,
-          the perforated back panel will keep your body heat flowing out as you
-          pedal so you don’t get that sauna effect as you ride.
-        </p>
-        <p class="roboto-font item-desc">
-          Secure fit and comfy feel are assured thanks to the elasticized cuffs,
-          while the side pockets give you somewhere keep your hands toasty when
-          you stop.
-        </p>
-        <section class="item-desc roboto-font extra-info">
-          <p><b>Size:</b> S, M, L, XL</p>
-          <p><b>Weight:</b> 200g</p>
-          <p><b>Activity:</b> Cycling</p>
-          <p><b>Material:</b> 100% polyester</p>
-          <p><b>Washability:</b> 40°C</p>
-          <p><b>Season:</b> Spring/Autumn</p>
-          <p><b>Features:</b> Windproof</p>
-          <p><b>Model year:</b> 2022</p>
-        </section>
-      </section>
     </main>
 
     <footer>
@@ -136,6 +131,8 @@
       src="https://kit.fontawesome.com/6a576be207.js"
       crossorigin="anonymous"
     ></script>
+
     <script src="/js/main.js" type="module"></script>
+    <script src="/js/item-page.js" type="module"></script>
   </body>
 </html>

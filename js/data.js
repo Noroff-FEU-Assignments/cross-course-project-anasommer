@@ -55,7 +55,7 @@ const jacketsData = [
   },
   {
     id: 4,
-    name: "Jacket One",
+    name: "Jacket Four",
     price: 2000,
     sex: "female",
     shortDesc: "Waterproof and breathable jacket for all-season use.",
@@ -73,7 +73,7 @@ const jacketsData = [
   },
   {
     id: 5,
-    name: "Jacket Two",
+    name: "Jacket Five",
     price: 1000,
     sex: "female",
     shortDesc: "Technical and breathable jacket developed for cycling.",
@@ -91,7 +91,7 @@ const jacketsData = [
   },
   {
     id: 6,
-    name: "Jacket Three",
+    name: "Jacket Six",
     price: 1500,
     sex: "female",
     shortDesc: "Light wind and waterproof shell jacket engineered for cycling.",
