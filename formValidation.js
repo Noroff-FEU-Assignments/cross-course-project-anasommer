@@ -28,7 +28,7 @@ function checkEmail(email) {
 
 function validateForm(e) {
   const messageMinLength = 40;
-  const nameMinLength = 3;
+  const nameMinLength = 2;
   e.preventDefault();
 
   if (checkLength(name.value, nameMinLength)) {
