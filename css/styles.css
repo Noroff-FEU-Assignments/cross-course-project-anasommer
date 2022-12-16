@@ -158,6 +158,13 @@ li {
   margin-left: 1rem;
 }
 
+#cart-full {
+  color: #5ad073;
+  display: none;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
 /* NAVIGATION */
 
 #logo {
@@ -553,7 +560,6 @@ footer {
     width: 90%;
   }
 
-
   #navigation {
     padding: 1rem 0 0;
   }
@@ -561,7 +567,6 @@ footer {
   .link-mobile {
     margin: 0.3rem -2.5rem;
   }
-
 
   .hero-container {
     left: 0%;

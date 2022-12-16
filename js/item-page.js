@@ -2,6 +2,8 @@ import jacketsData from "./data.js";
 
 const itemContainer = document.querySelector("#item-description");
 const breadcrumb = document.querySelector("#breadcrumb");
+const cartEmpty = document.querySelector("#cart-empty");
+const cartFull = document.querySelector("#cart-full");
 
 const queryString = document.location.search;
 const parameter = new URLSearchParams(queryString);
@@ -16,6 +18,7 @@ jacket.sex === "female"
   : (breadcrumb.innerHTML = `Men's`) &&
     breadcrumb.setAttribute("href", "/mens.html");
 
+// Render item to the page
 itemContainer.innerHTML = `
                             <div id="item-container">
                             <section class="margin-bottom">
@@ -51,3 +54,11 @@ itemContainer.innerHTML = `
                             </section>
                             </section>
 `;
+
+const btn = document.querySelector(".btn-add");
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
+  btn.textContent = "Added";
+  cartEmpty.style.display = "none";
+  cartFull.style.display = "block";
+});
