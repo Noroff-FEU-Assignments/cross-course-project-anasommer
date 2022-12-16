@@ -7,10 +7,13 @@ const emailError = document.querySelector("#hint-email");
 const messageError = document.querySelector("#hint-message");
 const mainEl = document.querySelector("main");
 const submitBtn = document.querySelector(".submit-btn");
+
+// Validation check markers to use when Submit is clicked to activate button
 let validName = false;
 let validEmail = false;
 let validMessage = false;
 
+// Validation check functions
 function checkLength(value, minLength) {
   if (value.trim().length > minLength) {
     return true;
@@ -51,16 +54,19 @@ function validateForm(e) {
   } else {
     messageError.style.display = "block";
   }
+  if (validName && validEmail && validMessage) {
+    submitBtn.disabled = false;
+  }
 }
 
+// Interaction with page elements
 contactForm.addEventListener("input", validateForm);
+
 submitBtn.addEventListener("click", function () {
-  if (validName && validEmail && validMessage) {
-    mainEl.innerHTML = `<img src="/images/iconSuccess.png" alt="success icon" id="success-icon" />
+  mainEl.innerHTML = `<img src="/images/iconSuccess.png" alt="success icon" id="success-icon" />
     <p class="added-heading futura-font-bold">
       Your message has been sent.
     </p>
     <a href="cart.html" class="btn-add roboto-font">Go to cart</a>
     <a href="index.html" class="btn-light roboto-font">Back to Shopping</a>`;
-  }
 });
