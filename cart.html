@@ -25,7 +25,7 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="#" class="nav-logo"
+        <a href="/index.html" class="nav-logo"
           ><img src="images/rainyDaysLogo.png" id="logo" alt="Rainy Days logo"
         /></a>
         <ul class="nav-menu">
@@ -60,27 +60,10 @@
         <a href="/index.html">Rainy Days</a> <span>> Shopping Cart</span>
       </div>
       <h1 class="futura-font-bold">Shopping Cart</h1>
-
-      <section id="cart-container">
-        <img
-          src="/images/assets/jacket4.jpeg"
-          alt="Jacket image"
-          class="cart-image"
-        />
-        <div class="cart-info">
-          <h3 class="futura-font-bold cart-heading">Jacket Three</h3>
-          <p class="roboto-font">Size: S</p>
-
-          <a href="#"><img src="/images/minus-icon.png" alt="minus icon" /></a
-          ><span class="cart-value roboto-font">1</span>
-          <a href="#"><img src="/images/pluss-icon.png" alt="pluss icon" /></a>
-        </div>
-      </section>
-      <section class="cart-details roboto-font">
-        <p>Subtotal: 1500 NOK</p>
-        <p>Shipping: Free</p>
-        <p class="cart-total">Total: 1500 NOK</p>
-      </section>
+<div id="cart-wrapper">
+   
+     </div>
+    </div>
       <section class="payment-info">
         <h2 class="futura-font-bold">Payment info</h2>
         <form class="roboto-font">
@@ -105,7 +88,7 @@
           </label>
         
           <div class="form-body">
-            <input type="text" class="card-number roboto-font" placeholder="Card Number">
+            <input type="number" class="card-number roboto-font" placeholder="Card Number" maxlength="16" required>
             <p class="payment-date roboto-font">Expiration Date:</p>
             <div class="date-field">  
            
@@ -128,23 +111,23 @@
               </div>
               <div class="year roboto-font">
               
-                <select name="Year">
-                  <option value="2022">2022</option>
-                  <option value="2023">2023</option>
-                  <option value="2024">2024</option>
-                  <option value="2025">2025</option>
-                  <option value="2026">2026</option>
-                  <option value="2027">2027</option>
-                  <option value="2028">2028</option>
-                  <option value="2029">2029</option>
-                  <option value="2030">2030</option>
-                  <option value="2031">2031</option>
+                <select name="Year" required>
+                  <option value="2022">2023</option>
+                  <option value="2023">2024</option>
+                  <option value="2024">2025</option>
+                  <option value="2025">2026</option>
+                  <option value="2026">2027</option>
+                  <option value="2027">2028</option>
+                  <option value="2028">2029</option>
+                  <option value="2029">2030</option>
+                  <option value="2030">2031</option>
+                  <option value="2031">2032</option>
                 </select>
               </div>
             </div>
             <div class="card-verification">
               <div class="cvv-input">
-                <input type="text" placeholder="CVV">
+                <input type="number" placeholder="CVV" minlength="3" maxlength="3" required>
               </div>
             </div>
             <a href="/checkout-success.html" class="btn-add roboto-font check-out-btn">Check Out</a>
@@ -172,5 +155,6 @@
       </div>
     </footer>
     <script src="/js/main.js" type="module"></script>
+    <script src="/js/cart.js" type="module"></script>
      </body>
 </html>

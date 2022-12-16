@@ -61,4 +61,6 @@ btn.addEventListener("click", function (e) {
   btn.textContent = "Added";
   cartEmpty.style.display = "none";
   cartFull.style.display = "block";
+
+  localStorage.setItem("jacket", id);
 });

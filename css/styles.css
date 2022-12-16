@@ -154,6 +154,12 @@ li {
   border: 3px solid var(--light-green-color);
 }
 
+button {
+  background-color: var(--white-color);
+  border: none;
+  cursor: pointer;
+}
+
 .margin-left {
   margin-left: 1rem;
 }
