@@ -504,6 +504,14 @@ footer {
     flex-direction: column;
   }
 
+  .hero-container h1 {
+    background-color: #fff;
+    box-shadow: 0px 5px 15px 20px rgba(255, 255, 255);
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+    border-radius: 4px;
+  }
+
   .hero-links {
     display: flex;
     flex-direction: column;
@@ -530,19 +538,38 @@ footer {
     color: var(--dark-blue-color);
   }
 
+  h2 {
+    font-size: 1rem;
+  }
+
   .gallery-item img {
     height: 250px;
     object-fit: cover;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
   body {
     width: 90%;
   }
 
+
+  #navigation {
+    padding: 1rem 0 0;
+  }
+
+  .link-mobile {
+    margin: 0.3rem -2.5rem;
+  }
+
+
   .hero-container {
     left: 0%;
-    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .link-mobile {
+    margin: 0.3rem -3.3rem;
   }
 }
