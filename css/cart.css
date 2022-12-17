@@ -112,17 +112,6 @@
   font-size: 15px;
 }
 
-#card-hint,
-#cvv-hint {
-  display: none;
-  font-size: 14px;
-  border-radius: 4px;
-  margin: 0 auto 10px;
-  width: 80%;
-  background-color: #f6cd3f;
-  text-align: center;
-}
-
 /* MEDIA QUERIES */
 
 @media (min-width: 680px) {
