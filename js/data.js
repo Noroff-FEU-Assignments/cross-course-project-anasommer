@@ -28,7 +28,7 @@ const jacketsData = [
 
         Secure fit and comfy feel are assured thanks to the elasticized cuffs, while the side pockets give you somewhere keep your hands toasty when you stop.`,
     weight: "200g",
-    activity: "Cycling",
+    activity: "Hiking",
     material: "100% polyester",
     washability: "60°C",
     season: "Spring/Summer",
@@ -46,7 +46,7 @@ const jacketsData = [
 
         Secure fit and comfy feel are assured thanks to the elasticized cuffs, while the side pockets give you somewhere keep your hands toasty when you stop.`,
     weight: "300g",
-    activity: "Cycling",
+    activity: "Camping",
     material: "100% polyester",
     washability: "40°C",
     season: "Autumn",
@@ -64,10 +64,10 @@ const jacketsData = [
 
         Secure fit and comfy feel are assured thanks to the elasticized cuffs, while the side pockets give you somewhere keep your hands toasty when you stop.`,
     weight: "200g",
-    activity: "Cycling",
+    activity: "Skiing",
     material: "100% polyester",
     washability: "60°C",
-    season: "Autumn",
+    season: "Winter",
     features: "Windproof",
     modelYear: 2020,
   },
