@@ -74,7 +74,7 @@
               type="radio"
               name="payment"
               value="credit-card"
-              class="payment-method"
+              class="payment-method" required
             />
             Credit Card
           </label> </br>
@@ -82,13 +82,15 @@
               type="radio"
               name="payment"
               value="paypal"
-              class="payment-method"
+              class="payment-method" required
             />
             Paypal
           </label>
         
-          <div class="form-body">
-            <input type="number" class="card-number roboto-font" placeholder="Card Number" maxlength="16" required>
+          <form class="form-body">
+          
+            <input type="number" class="card-number roboto-font" placeholder="Card Nr - 16 digits" maxlength="16" required id="credit-card">
+    
             <p class="payment-date roboto-font">Expiration Date:</p>
             <div class="date-field">  
            
@@ -127,11 +129,12 @@
             </div>
             <div class="card-verification">
               <div class="cvv-input">
-                <input type="number" placeholder="CVV" minlength="3" maxlength="3" required>
+              
+                <input type="number" placeholder="CVV - 3 digits" minlength="3" maxlength="3" required id="cvv"> 
               </div>
             </div>
-            <a href="/checkout-success.html" class="btn-add roboto-font check-out-btn">Check Out</a>
-          </div>
+            <a href="#" class="btn-add roboto-font check-out-btn">Check Out</a>
+          </form>
          
         </form>
       </section>

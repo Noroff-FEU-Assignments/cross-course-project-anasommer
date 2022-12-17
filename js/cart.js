@@ -1,12 +1,25 @@
 import jacketsData from "./data.js";
 
+const cartWrapper = document.querySelector("#cart-wrapper");
+const checkOutBtn = document.querySelector(".check-out-btn");
+
 const id = localStorage.getItem("jacket");
 const item = jacketsData[id - 1];
 let itemQuantity = 1;
 let totalPrice = item.price;
 
-const cartWrapper = document.querySelector("#cart-wrapper");
-const checkOutBtn = document.querySelector(".check-out-btn");
+// Form & validation
+const form = document.querySelector("form");
+const cardNumber = document.querySelector("#credit-card");
+const cvvNumber = document.querySelector("#cvv");
+const CVVlength = 3;
+const cardLength = 16;
+
+function checkLength(value, length) {
+  if (value.trim().length === length) {
+    return true;
+  }
+}
 
 function renderCart() {
   cartWrapper.innerHTML = ` 
@@ -55,7 +68,16 @@ function renderCart() {
 
 renderCart();
 
-// Clean local storage when order is placed
-checkOutBtn.addEventListener("click", function () {
-  localStorage.clear();
+// Form validation
+form.addEventListener("input", function () {
+  if (
+    checkLength(cardNumber.value, cardLength) &&
+    checkLength(cvvNumber.value, CVVlength)
+  ) {
+    // Clean local storage when order is placed
+    checkOutBtn.addEventListener("click", function () {
+      localStorage.clear();
+      checkOutBtn.setAttribute("href", "./checkout-success.html");
+    });
+  }
 });

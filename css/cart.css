@@ -79,7 +79,6 @@
 
 .card-number {
   max-width: 80%;
-  margin-bottom: 20px;
   border: 1px solid var(--dark-blue-color);
 }
 
@@ -111,6 +110,17 @@
   margin-left: 10px;
   margin-bottom: 5px;
   font-size: 15px;
+}
+
+#card-hint,
+#cvv-hint {
+  display: none;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 0 auto 10px;
+  width: 80%;
+  background-color: #f6cd3f;
+  text-align: center;
 }
 
 /* MEDIA QUERIES */
