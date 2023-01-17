@@ -1,5 +1,3 @@
-import jacketsData from "./data.js";
-
 const itemContainer = document.querySelector("#item-description");
 const breadcrumb = document.querySelector("#breadcrumb");
 const cartEmpty = document.querySelector("#cart-empty");
