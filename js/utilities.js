@@ -1,4 +1,4 @@
-export default async function renderProducts() {
+async function renderProducts() {
   const jacketsContainer = document.querySelector("#jackets-container");
 
   const baseUrl = `https://anasommer.com/api/wp-json/wc/store/products`;
