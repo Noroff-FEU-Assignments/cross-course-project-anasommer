@@ -11,7 +11,10 @@ async function renderProducts() {
     const jacketShortDescription = jacket.short_description.slice(3, -4);
 
     // Shows Womens jackets
-    if (jacket.categories[0] && window.location.pathname === "/womens.html") {
+    if (
+      jacket.categories[0].name === "Womens" &&
+      window.location.pathname === "/womens.html"
+    ) {
       jacketsContainer.innerHTML += ` 
         <section class="jacket-item">
         <a href="/item-page.html?id=${jacket.id}">
@@ -30,7 +33,7 @@ async function renderProducts() {
 
     // Shows Mens jackets
     else if (
-      !jacket.categories[0] &&
+      jacket.categories[0].name === "Mens" &&
       window.location.pathname === "/mens.html"
     ) {
       jacketsContainer.innerHTML += ` 
