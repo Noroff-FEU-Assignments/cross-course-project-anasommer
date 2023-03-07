@@ -10,9 +10,9 @@ Project was to build an online shop to showcase what I have learned during the f
 
 The goal was to create:
 
-Website prototype in Adobe xD
-Use HTML & CSS to build a site
-Add interactivity at the later stage with JS and API
+- Website prototype in Adobe xD
+- Use HTML & CSS to build a site
+- Add interactivity at the later stage with JS and API
 
 ## Built With
 
