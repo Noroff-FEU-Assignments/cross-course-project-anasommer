@@ -1,5 +1,7 @@
 ## Cross Course Project
 
+![Cross course project website](https://github.com/anasommer/portfolio/blob/main/img/rainy-days.jpeg)
+
 ## Goal
 
 Course assignment project at NorOff School of Technology reflecting student’s creative and technical knowledge and skills.
