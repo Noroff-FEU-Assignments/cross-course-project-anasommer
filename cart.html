@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rainy Days shopping cart, here you can look at your order and pay for it."
+    />
+    <title>Jacket Three | Rainy Days</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- Hotjar Tracking Code for https://gorgeous-palmier-85be1d.netlify.app/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3261507,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="/index.html" class="nav-logo"
+          ><img src="images/rainyDaysLogo.png" id="logo" alt="Rainy Days logo"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="mens.html" class="nav-link futura-font-bold">Mens</a>
+          </li>
+          <li class="nav-item"><img src="images/line.png" id="line" alt="lightgreen line separator"/></li>
+
+          <li class="nav-item">
+            <a href="womens.html" class="nav-link futura-font-bold">Womens</a>
+          </li>
+          <li class="nav-item">
+            <a href="/cart.html"
+              ><img
+                src="images/iconAdd.png"
+                class="nav-icon"
+                alt="add to card icon"
+            /></a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+
+    <main class="cart-desktop">
+      <div class="breadcrumb mobile-hidden roboto-font" aria-label="Breadcrumb">
+        <a href="/index.html">Rainy Days</a> <span>> Shopping Cart</span>
+      </div>
+      <h1 class="futura-font-bold">Shopping Cart</h1>
+<div id="cart-wrapper">
+   
+     </div>
+    </div>
+      <section class="payment-info">
+        <h2 class="futura-font-bold">Payment info</h2>
+        <div class="roboto-font">
+          <legend class="bold">Payment Method:</legend>
+
+         <label class="payment-label">
+            <input
+              type="radio"
+              name="payment"
+              value="credit-card"
+              class="payment-method" required
+            />
+            Credit Card
+          </label> </br>
+          <label class="payment-label"><input
+              type="radio"
+              name="payment"
+              value="paypal"
+              class="payment-method" required
+            />
+            Paypal
+          </label>
+        
+          <form class="form-body">
+          
+            <input type="number" class="card-number roboto-font" placeholder="Card Nr - 16 digits" maxlength="16" required id="credit-card">
+    
+            <p class="payment-date roboto-font">Expiration Date:</p>
+            <div class="date-field">  
+           
+              <div class="month roboto-font">
+              
+                <select name="Month">
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="year roboto-font">
+              
+                <select name="Year" required>
+                  <option value="2022">2023</option>
+                  <option value="2023">2024</option>
+                  <option value="2024">2025</option>
+                  <option value="2025">2026</option>
+                  <option value="2026">2027</option>
+                  <option value="2027">2028</option>
+                  <option value="2028">2029</option>
+                  <option value="2029">2030</option>
+                  <option value="2030">2031</option>
+                  <option value="2031">2032</option>
+                </select>
+              </div>
+            </div>
+            <div class="card-verification">
+              <div class="cvv-input">
+              
+                <input type="number" placeholder="CVV - 3 digits" minlength="3" maxlength="3" required id="cvv"> 
+              </div>
+        
+            </div>
+        
+            <a href="#" class="btn-add roboto-font check-out-btn">Check Out</a>
+    
+          </form>
+         
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-icons">
+        <a href="https://www.facebook.com/"
+          ><img src="../images/fb-icon.png" alt="Facebook icon"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="../images/instagram-icon.png" alt="Instagram icon"
+        /></a>
+        <a href="https://www.youtube.com/"
+          ><img src="../images/youtube-icon.png" alt="Youtube icon"
+        /></a>
+      </div>
+      <div class="footer-links">
+        <a href="contact.html" class="link futura-font-bold">contact us</a>
+        <a href="about.html" class="link futura-font-bold">about us</a>
+      </div>
+    </footer>
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/cart.js" type="module"></script>
+     </body>
+</html>

@@ -1,0 +1,39 @@
+#added {
+  margin: 3rem auto;
+  width: 300px;
+  text-align: center;
+  background-color: var(--dark-blue-color);
+}
+
+.added-heading {
+  margin: 1rem;
+  color: var(--white-color);
+  font-size: 30px;
+  text-transform: none;
+}
+
+.added-text {
+  color: var(--white-color);
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#added a {
+  margin-top: 1.3rem;
+}
+
+@media (min-width: 680px) {
+  #added {
+    width: 750px;
+    padding-top: 0.5rem;
+  }
+
+  #success-icon {
+    float: left;
+  }
+
+  #added a {
+    margin: 1rem 3rem;
+  }
+}
